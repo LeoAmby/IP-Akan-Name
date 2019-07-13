@@ -8,6 +8,11 @@ var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 function inputs(){
+    CC = parseInt(document.getElementById("century")).value;
+    YY = parseInt(document.getElementById("year")).value;
+    DD = parseInt(document.getElementById("dateOfBirth")).value;
+    MM = parseInt(document.getElementById("monthOfBirth")).value;
+
 
 }
 
