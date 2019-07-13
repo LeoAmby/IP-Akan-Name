@@ -27,7 +27,7 @@ function radioButtons(){
         var gender = "Male";
     } else if (gridRadios[1].checked == true){
         var gender = "Female";
-    } else if (gridRadios[2].checked == true){
+    } else (gridRadios[2].checked == true){
         var gender = "Unidentified";
     }
 }
@@ -36,7 +36,19 @@ function validate(){
     dayOfBirth();
     radioButtons();
     //incomplete
-    if 
+    if (gender == "male"){
+        if(dOb == 0){
+            document.write(weekDays[0] + "" + maleNames[0]);
+        }else if(dOb == 1){
+
+        }else if(){
+
+        }
+    }else if(gender == "female"){
+        if(dOb == 0){
+
+        }e
+    }
 }
 
 
