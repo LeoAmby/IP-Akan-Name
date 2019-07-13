@@ -9,24 +9,23 @@ body {
     /* background-image: url(../images/sunset.jpg) !important; */
     background-size: cover;
     width: 100%;
-    height: auto;
 
 }
 .container {
     background: #000000e3;
-    height: 800px;
+    height: 620px;
 }
 .col-md-8 {
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
-    margin-top: 10%; 
+    margin-top: 8%; 
 }
 .col-md-4{
     -ms-flex: 0 0 33.333333%;
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
-      margin-top:120px;
+      margin-top:8%;
 }
 .form-row {
     display: -ms-flexbox;
