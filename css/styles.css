@@ -67,3 +67,8 @@ p {
     border-right: 1px solid grey;
     padding:10px;
 }
+.card-footer {
+    margin-bottom: 0%;
+    margin-left:350px;
+    color:white;
+}
