@@ -1,14 +1,62 @@
 /* font-family: 'Satisfy', cursive;
 font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Allerta Stencil', sans-serif; */
+body {
+    background-image: url(../images/sunset.jpg) !important; */
+}
 
 .container-full {
-    background-image: url(../images/sunset.jpg) !important;
+    /* background-image: url(../images/sunset.jpg) !important; */
     background-size: cover;
     width: 100%;
     height: auto;
 
 }
 .container {
-    /* background-color: ##000000d4; */
+    background: #000000e3;
+    height: 800px;
+}
+.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-top: 10%; 
+}
+.col-md-4{
+    -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+      margin-top:150px;
+}
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    color:white;
+  }
+.row h1 {
+      border: 2px solid #fd7e14;
+      color:white;
+      text-align: center;
+      font-family: 'Gloria Hallelujah', cursive;
+      height: 60px;
+      font-size: 47px;
+      padding-left: 50px;
+      margin-top:5px;
+}
+h1 {
+    display: center; 
+}
+.row span {
+    background-color: #fd7e14;
+    height: 60px;
+
+}
+p {
+    color:white;
+    border-right: 1px solid grey;
+    padding:10px;
 }

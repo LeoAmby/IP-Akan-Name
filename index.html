@@ -11,41 +11,93 @@
   <body>
       <div class="container-full">
           <div class="container">
+            <div class="row" col-md -12>
+                <h1>akan <span>NAMES</span></h1>
+            </div>
             <div class="row" col-md-12>
                 <div class="col-md-4">
-
+                    <p> Based on the Ghanian culture, chidren are named according to the day in which they are born.<br>
+                    </p>
+                    <p>The Akan names relies on a specific day of the week. This app will help you identify your Akan name.<br>
+                    </p>
+                    <p>Have fun.
+                   </p>
                 </div>
                 <div class="col-md-8">
-                        <p>
-                            <label>Enter your Date of Birth
-                               <input type="date" name="Date" required>
-                            </label> 
-                        </p>
-                                
-                        <p>
-                            <label>Your Month of Birth 
-                                <input type="" name="Month">
-                            </label>
-                        </p>
-                                
-                        <p>
-                            <label>Your Year of Birth 
-                                <input type="year" name="year">
-                            </label>
-                        </p>
-
-                        <p>
-                            <label>Your Century of Birth 
-                                <input type="century" name="century">
-                            </label>
-                        </p>
-                                
-                        <fieldset>
+                    <form>
+                        <div class="form-group row">
+                          <label for="inputDate" class="col-sm-2 col-form-label">Date</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="dateOfBirth" placeholder="Date of Birth">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="inputMonth" class="col-sm-2 col-form-label">Month</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="monthOfBirth" placeholder="Month of Birth">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputYear" class="col-sm-2 col-form-label">Year</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="year" placeholder="Year of Birth">
+                            </div>
+                          </div>
+                        <div class="form-group row">
+                            <label for="inputCentury" class="col-sm-2 col-form-label">Century</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="century" placeholder="Century">
+                            </div>
+                          </div>
+                        <fieldset class="form-group">
+                          <div class="row">
+                            <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                            <div class="col-sm-10">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="male" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                  Male
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="female" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                  Female
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="otherGender" value="option3">
+                                <label class="form-check-label" for="gridRadios3">
+                                  Other
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+                        <!-- <div class="form-group row">
+                          <div class="col-sm-2">Checkbox</div>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck1">
+                              <label class="form-check-label" for="gridCheck1">
+                                Example checkbox
+                              </label>
+                            </div>
+                          </div>
+                        </div> -->
+                        <div class="form-group row">
+                          <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">CHECK YOUR AKAN NAME</button>
+                          </div>
+                        </div>
+                      </form>
+                                                        
+                        <!-- <fieldset>
                             <legend>What Gender are you</legend>
                                 <p><label> <input type="radio" name="gender" required value="Gender"> Male </label></p>
                                 <p><label> <input type="radio" name="gender" required value="Gender"> Female </label></p>
                                 <p><label> <input type="radio" name="gender" required value="Gender"> Other </label></p>
-                        </fieldset>
+                        </fieldset> -->
                     
                 </div>
             </div>

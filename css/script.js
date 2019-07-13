@@ -1,15 +1,18 @@
+var CC;
+var YY;
+var MM;
+var DD;
+
+
+
 function gender(a, b){
     var a = male;
     var b = female;
 }
  
 function dayOfBirth() {
-    results dayOfBirth;
+    var dayOfBirth;
     dayOfBirth = (((CC/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7;
-    var CC = century;
-    var YY = year;
-    var MM = month;
-    var DD = date;
 }
 femaleNames = ["Akosua","Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
