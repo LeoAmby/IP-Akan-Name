@@ -1,0 +1,81 @@
+/* font-family: 'Satisfy', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Allerta Stencil', sans-serif; */
+body {
+    background-image: url(../images/sunset.jpg) 
+}
+
+.container-full {
+    /* background-image: url(../images/sunset.jpg) !important; */
+    background-size: cover;
+    width: 100%;
+
+}
+.container {
+    background: #000000e3;
+    height: 620px;
+}
+.col-md-8 {
+    margin-top: 3%; 
+}
+.col-md-4{
+    margin-top:3%;
+}
+.form-row {
+    color:white;
+  }
+.row h1 {
+      border: 2px solid #fd7e14;
+      color:white;
+      text-align: center;
+      font-family: 'Gloria Hallelujah', cursive;
+      height: 60px;
+      font-size: 47px;
+      padding-left: 50px;
+      margin-top:25px;
+      margin-left: 20px;
+}
+#button {
+        background-color: #fd7e14;
+        margin-left:130px;
+        color:black;
+        border:2px solid black;
+        font-weight: bolder;
+}
+#reset {
+    background-color: #fd7e14;
+    padding:5px;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+h1 {
+    display: center; 
+}
+.row span {
+    background-color: #fd7e14;
+    height: 60px;
+    font-family:'Allerta Stencil', sans-serif;
+
+}
+p {
+    color:white;
+    border-right: 1px solid grey;
+    padding:10px;
+}
+.card-footer {
+    margin-bottom: 0%;
+    margin-left:350px;
+    color:white;
+    background-color: black;
+    opacity: 0.5%;
+}
+#display-bar {
+    width: 350px;
+    height:200px;
+    border:2px solid #fd7e14;
+    text-align: center;
+    padding-top:20%;
+    font-size: 180%;
+    font-family:'Allerta Stencil', sans-serif;
+}

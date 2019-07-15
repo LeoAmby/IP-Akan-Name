@@ -24,19 +24,37 @@ function dayOfBirth(){
 
 function radioButtons(){
     var gender = document.getElementsByName("gridRadios");
-    if (gridRadios[0].checked === true) {
-        var gender = "Male";
-    } else if (gridRadios[1].checked === true){
-        var gender = "Female";
-    } else (gridRadios[2].checked == true){
-        var gender = "Unidentified";
+    if (gender[0].checked == true) {
+        gender = "Male";
+        return gender;
+    }else{
+        gender = "Female";
+        return gender;
+    } 
+    // else {
+       
+    // }
+}
+function final(){
+   inputs();
+    dayOfBirth();
+    radioButtons(); 
+}
+function restrictInputs(){
+    if ((DD <= 0) || (DD => 31)){
+        alert("Kindly insert a valid date")
+    } else if ((MM <= 0) || (MM =>12)){
+        alert ("Kindly insert a valid month")
+    } else if((CC <= 00) || (CC => 21)){
+        alert("Kindly input a valid century")
+    } else{
+
     }
 }
 
 function validate(){
-    inputs();
-    dayOfBirth();
-    radioButtons();
+   final();
+    restrictInputs();
     
     if (gender == "male"){
         if(dOb == 0){
@@ -55,12 +73,12 @@ function validate(){
             document.write (weekDays[6] + "" + maleNames[6]);
         }
     }else if(gender == "female"){
-        if(dOb == 0){
+        if(dOb == 1){
             document.write(weekDays[0] + "" + femaleNames[0]);
-        }else if(dOb == 1){
-            document.write(weekDays[1] + "" + femaleNames [1]);
         }else if(dOb == 2){
-            document.write(weekDays[2] + "" + femaleNames [2]);
+            document.write(weekDays[1] + "" + femaleNames [1]);
+        // }else if(dOb == 2){
+        //     document.write(weekDays[2] + "" + femaleNames [2]);
         }else if (dOb == 3){
             document.write(weekDays[3] + "" + femaleNames [3]);
         }else if (dOb == 4){
@@ -87,5 +105,4 @@ function validate(){
             document.write (weekDays[6] + "" + unidentified[0]);
         }
 }
-
-
+}
