@@ -4,9 +4,9 @@
    Leonidah Mwamto
 
 ## Description
-    This is a Web Application that makes use of the javaScript language to calculate the day of week in which one is born..
-    The users are required to enter their birth details which include the date, month, year and century in order to find out the exact day of the week in which they were born, hence identify their Ghanian Akan names.
-    Finally, with the correct information provided, the App should be in a position to display the day of the week in which the user was born and their Akan names.
+    + This is a Web Application that makes use of the javaScript language to calculate the day of week in which one is born..
+    + The users are required to enter their birth details which include the date, month, year and century in order to find out the exact day of the week in which they were born, hence identify their Ghanian Akan names.
+    + Finally, with the correct information provided, the App should be in a position to display the day of the week in which the user was born and their Akan names.
 
 ## Screenshot 
    <img src="images/screenshot.png" width="1000">
@@ -20,10 +20,10 @@
     Leonidah Mwamto
 
 ## BDD
-    This web application requires the user to input their birth details.
-    Insert the information in the different text arears.
-    Click the "check your akan name" button to submit the information provided.
-    The app should indicate the day of week which you were born and your Ghanian Akan name.
+    + This web application requires the user to input their birth details.
+    + Insert the information in the different text arears.
+    + Click the "check your akan name" button to submit the information provided.
+    + The app should indicate the day of week which you were born and your Ghanian Akan name.
 
 
 ## Known Bugs
