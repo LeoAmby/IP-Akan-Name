@@ -11,6 +11,10 @@ var unidentified = ["unidentified", ""]
 var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var d = new Date();
 
+function todaysDate(){
+    d = document.getElementById("todayDate").innerHTML
+}
+
 function inputs(){
     CC = parseInt(document.getElementById("century")).value;
     YY = parseInt(document.getElementById("year")).value;
