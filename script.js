@@ -60,6 +60,7 @@ function final(){
         }else if(dOb == 6){
             document.write (weekDays[6] + "" + maleNames[6]);
         }
+        
     }else if(gender == "female"){
         if(dOb == 1){
             document.write(weekDays[0] + "" + femaleNames[0]);
