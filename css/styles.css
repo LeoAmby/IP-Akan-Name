@@ -60,3 +60,8 @@ p {
     margin-left:350px;
     color:white;
 }
+#display-bar {
+    width: 300px;
+    height:200px;
+    border:2px solid #fd7e14;
+}
