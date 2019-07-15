@@ -66,4 +66,8 @@ p {
     width: 350px;
     height:200px;
     border:2px solid #fd7e14;
+    text-align: center;
+    padding-top:20%;
+    font-size: 180%;
+    font-family:'Allerta Stencil', sans-serif;
 }
