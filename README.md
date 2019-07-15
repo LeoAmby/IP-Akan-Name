@@ -10,3 +10,18 @@
 
 ## Screenshot 
    <img src="images/screenshot.png" width="1000">
+
+## Technologies Used
+    i. Bootstrap
+    ii. HTML
+    iii. javaScript
+
+## List of Contributors
+    Leonidah Mwamto, 
+
+## Known Bugs
+    The application does not put into consideration the month of February that has less days. Instead it assumes all months of the year are equivalent to thirty days. As a result it ignores leap years and does not provide the exact day of week for some users.
+
+## Licence
+    MIT
+    Author: Leonidah Mwamto
