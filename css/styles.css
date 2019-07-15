@@ -39,7 +39,15 @@ body {
         background-color: #fd7e14;
         margin-left:130px;
         color:black;
-        border:1px solid black;
+        border:2px solid black;
+        font-weight: bolder;
+}
+#reset {
+    background-color: #fd7e14;
+    padding:5px;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 h1 {
     display: center; 

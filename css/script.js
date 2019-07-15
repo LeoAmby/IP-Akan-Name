@@ -37,6 +37,9 @@ function final(){
     dayOfBirth();
     radioButtons(); 
 }
+function restrictInputs(){
+    if (DD == 0 )
+}
 
 function validate(){
     inputs();
