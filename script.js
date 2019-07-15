@@ -3,11 +3,17 @@ var YY;
 var MM;
 var DD;
 var dOb;
+var d;
 var gender; 
 var femaleNames = ["Akosua","Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var unidentified = ["unidentified", ""]
 var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var d = new Date();
+
+// function todaysDate(){
+//     d = document.getElementById("todayDate").innerHTML
+// }
 
 function inputs(){
     CC = parseInt(document.getElementById("century")).value;
@@ -25,34 +31,20 @@ function dayOfBirth(){
 function radioButtons(){
     var gender = document.getElementsByName("gridRadios");
     if (gender[0].checked == true) {
-        var gender = "Male";
-    } else if (gender[1].checked == true){
-        var gender = "Female";
-    } else {
-        var gender = "Unidentified";
-    }
+        gender = "Male";
+        return gender;
+    }else{
+        gender = "Female";
+        return gender;
+    } 
+    // else {
+       
+    // }
 }
 function final(){
    inputs();
-    dayOfBirth();
-    radioButtons(); 
-}
-function restrictInputs(){
-    if ((DD <= 0) || (DD => 31)){
-        alert("Kindly insert a valid date")
-    } else if ((MM <= 0) || (MM =>12)){
-        alert ("Kindly insert a valid month")
-    } else if((CC <= 00) || (CC => 21)){
-        alert("Kindly input a valid century")
-    } else{
-
-    }
-}
-
-function validate(){
-   final();
-    restrictInputs();
-    
+   function validate(){
+  
     if (gender == "male"){
         if(dOb == 0){
             document.write(weekDays[0] + "" + maleNames[0]);
@@ -103,3 +95,19 @@ function validate(){
         }
 }
 }
+   
+    dayOfBirth();
+    radioButtons(); 
+}
+// function restrictInputs(){
+//     if ((DD <= 0) || (DD => 31)){
+//         alert("Kindly insert a valid date")
+//     } else if ((MM <= 0) || (MM =>12)){
+//         alert ("Kindly insert a valid month")
+//     } else if((CC <= 00) || (CC => 21)){
+//         alert("Kindly input a valid century")
+//     } else{
+
+//     }
+// }
+
