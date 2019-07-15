@@ -17,7 +17,14 @@
     iii. javaScript
 
 ## List of Contributors
-    Leonidah Mwamto, 
+    Leonidah Mwamto
+
+## BDD
+    This web application requires the user to input their birth details.
+    Insert the information in the different text arears.
+    Click the "check your akan name" button to submit the information provided.
+    The app should indicate the day of week which you were born and your Ghanian Akan name.
+
 
 ## Known Bugs
     The application does not put into consideration the month of February that has less days. Instead it assumes all months of the year are equivalent to thirty days. As a result it ignores leap years and does not provide the exact day of week for some users.

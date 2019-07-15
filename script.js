@@ -3,7 +3,6 @@ var YY;
 var MM;
 var DD;
 var dOb;
-var d;
 var gender; 
 var femaleNames = ["Akosua","Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
