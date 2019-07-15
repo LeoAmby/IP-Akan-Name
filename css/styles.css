@@ -16,10 +16,10 @@ body {
     height: 620px;
 }
 .col-md-8 {
-    margin-top: 8%; 
+    margin-top: 3%; 
 }
 .col-md-4{
-    margin-top:8%;
+    margin-top:3%;
 }
 .form-row {
     color:white;
@@ -59,9 +59,11 @@ p {
     margin-bottom: 0%;
     margin-left:350px;
     color:white;
+    background-color: black;
+    opacity: 0.5%;
 }
 #display-bar {
-    width: 300px;
+    width: 350px;
     height:200px;
     border:2px solid #fd7e14;
 }
