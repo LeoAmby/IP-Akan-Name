@@ -3,11 +3,13 @@ var YY;
 var MM;
 var DD;
 var dOb;
+var d;
 var gender; 
 var femaleNames = ["Akosua","Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var unidentified = ["unidentified", ""]
 var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var d = new Date();
 
 function inputs(){
     CC = parseInt(document.getElementById("century")).value;
