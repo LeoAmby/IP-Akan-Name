@@ -24,11 +24,11 @@ function dayOfBirth(){
 
 function radioButtons(){
     var gender = document.getElementsByName("gridRadios");
-    if (gridRadios[0].checked === true) {
+    if (gender[0].checked == true) {
         var gender = "Male";
-    } else if (gridRadios[1].checked === true){
+    } else if (gender[1].checked == true){
         var gender = "Female";
-    } else (gridRadios[2].checked == true);{
+    } else {
         var gender = "Unidentified";
     }
 }
@@ -42,15 +42,16 @@ function restrictInputs(){
         alert("Kindly insert a valid date")
     } else if ((MM <= 0) || (MM =>12)){
         alert ("Kindly insert a valid month")
-    } else ((CC <= 00) || (CC => 21)){
+    } else if((CC <= 00) || (CC => 21)){
         alert("Kindly input a valid century")
-    } 
+    } else{
+
+    }
 }
 
 function validate(){
-    inputs();
-    dayOfBirth();
-    radioButtons();
+   final();
+    restrictInputs();
     
     if (gender == "male"){
         if(dOb == 0){

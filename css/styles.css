@@ -2,7 +2,7 @@
 font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Allerta Stencil', sans-serif; */
 body {
-    background-image: url(../images/sunset.jpg) !important; */
+    background-image: url(../images/sunset.jpg) 
 }
 
 .container-full {
