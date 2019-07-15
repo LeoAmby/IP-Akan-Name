@@ -46,17 +46,17 @@ function final(){
     dayOfBirth();
     radioButtons(); 
 }
-function restrictInputs(){
-    if ((DD <= 0) || (DD => 31)){
-        alert("Kindly insert a valid date")
-    } else if ((MM <= 0) || (MM =>12)){
-        alert ("Kindly insert a valid month")
-    } else if((CC <= 00) || (CC => 21)){
-        alert("Kindly input a valid century")
-    } else{
+// function restrictInputs(){
+//     if ((DD <= 0) || (DD => 31)){
+//         alert("Kindly insert a valid date")
+//     } else if ((MM <= 0) || (MM =>12)){
+//         alert ("Kindly insert a valid month")
+//     } else if((CC <= 00) || (CC => 21)){
+//         alert("Kindly input a valid century")
+//     } else{
 
-    }
-}
+//     }
+// }
 
 function validate(){
    final();
