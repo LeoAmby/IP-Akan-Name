@@ -28,7 +28,7 @@ function radioButtons(){
         var gender = "Male";
     } else if (gridRadios[1].checked === true){
         var gender = "Female";
-    } else (gridRadios[2].checked == true){
+    } else (gridRadios[2].checked == true);{
         var gender = "Unidentified";
     }
 }

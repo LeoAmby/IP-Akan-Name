@@ -22,6 +22,9 @@
 ## Known Bugs
     The application does not put into consideration the month of February that has less days. Instead it assumes all months of the year are equivalent to thirty days. As a result it ignores leap years and does not provide the exact day of week for some users.
 
+## Installations
+    To have this web app in your files, clone it from my github directory named IP-Akan-Names. Unzip the files within a folder suitable to you and use it as pleased.
+
 ## Licence
     MIT
-    Author: Leonidah Mwamto
+    (https://choosealicense.com/licenses/mit/)
