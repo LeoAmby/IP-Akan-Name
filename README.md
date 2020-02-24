@@ -15,6 +15,7 @@
     i. Bootstrap
     ii. HTML
     iii. javaScript
+    iv. CSS
 
 ## List of Contributors
     Leonidah Mwamto
